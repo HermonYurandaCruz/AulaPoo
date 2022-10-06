@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476104329061",
+    "project_id": "aulapoo-595d6",
+    "storage_bucket": "aulapoo-595d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476104329061:android:49d9f5def20bc8cc0d838c",
+        "android_client_info": {
+          "package_name": "com.codeline.aula1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476104329061-reg5juqqhljho3tkfkuhn4qpmntt4mea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9qGRt-C5TQa-p6PpYqmzzLgMlh9aYzak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476104329061-reg5juqqhljho3tkfkuhn4qpmntt4mea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

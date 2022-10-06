@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaLogin">
+
+
+    <ImageView
+        android:id="@+id/IconPoste"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/agenda"
+        app:layout_constraintBottom_toTopOf="@id/Conteiner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/Conteiner"
+        android:layout_marginStart="20dp"
+        style="@style/ConteinerLogin"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IconPoste"
+        />
+    <EditText
+        android:id="@+id/emailLogin"
+        android:drawableRight="@drawable/ic_email_24"
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        style="@style/TextoLogin"
+        app:layout_constraintStart_toStartOf="@id/Conteiner"
+        app:layout_constraintEnd_toEndOf="@id/Conteiner"
+        app:layout_constraintTop_toTopOf="@id/Conteiner"
+
+        />
+    <EditText
+        android:text="senha"
+        android:id="@+id/ed_senha"
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/emailLogin"
+        android:hint="Senha"
+        style="@style/TextoLogin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_key"
+        app:layout_constraintStart_toStartOf="@id/Conteiner"
+        app:layout_constraintEnd_toEndOf="@id/Conteiner"
+     />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BotaoLogin"
+        android:layout_marginBottom="35dp"
+        style="@style/botao"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/ed_senha"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/Conteiner"
+        app:layout_constraintStart_toStartOf="@id/Conteiner"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_criar"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text="criar conta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/BotaoLogin"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
